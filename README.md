@@ -32,9 +32,23 @@ The objective is to help regional managers monitor dealership performance, evalu
 
 Create meaningful visualizations from dealership sales data to understand sales performance, profitability, and dealer-wise trends.
 
-## Dataset
+## Files Used
 
-The dataset contains automobile dealership sales information including:
+### 📂 Input File
+
+**CarSalesByModelStart.xlsx**
+
+This workbook contains the raw dealership sales data along with pre-created pivot tables that were used to generate the required visualizations.
+
+### 📂 Output File
+
+**CarSalesByModelEnd.xlsx**
+
+This is the final workbook after completing all required charts, formatting, and visualizations.
+
+## Dataset Information
+
+The dataset contains automobile dealership sales information, including:
 
 * Dealer ID
 * Car Model
@@ -67,17 +81,38 @@ The dataset contains automobile dealership sales information including:
 * Line Chart
 * Horizontal gridlines removed
 * Legend positioned on the right
-* Green series outline for improved visualization
+* Green series outline for improved visualization.
 
 ---
 
-# 📊 Part 2: IBM Cognos Analytics Dashboard
+# 📊 Part 2: Sales & Service Dashboard in IBM Cognos Analytics
 
 ## Project Objective
 
-Develop an interactive dashboard that provides insights into both **Sales** and **Service** operations across automobile dealerships.
+Develop interactive dashboards that provide insights into both **Sales** and **Service** operations across automobile dealerships.
 
-Two dashboards were created:
+## Data Source
+
+The dashboards were created using the sample data module:
+
+**Auto group data module**
+
+located in:
+
+```
+Team Content
+   └── Samples
+        └── By Industry
+             └── Automotive
+                  └── Data
+                       └── Auto group data module
+```
+
+This data module was provided within the IBM Cognos Analytics environment and served as the primary data source for dashboard development.
+
+## Dashboards Created
+
+Two interactive dashboards were developed:
 
 * **Sales Dashboard**
 * **Service Dashboard**
@@ -159,17 +194,16 @@ The Service dashboard focuses on after-sales performance and customer satisfacti
 
 The dashboards enable managers to:
 
-* Monitor dealership performance in real time.
+* Monitor dealership performance effectively.
 * Identify high-performing and underperforming dealers.
 * Track profitability trends across models and years.
 * Analyze customer satisfaction through sentiment analysis.
 * Detect recall-related issues for proactive maintenance.
-* Make data-driven decisions using interactive visualizations.
+* Make informed business decisions using interactive visualizations.
 
 ---
 
 # 🎯 Conclusion
 
-This project demonstrates the practical application of **Business Intelligence (BI)** tools for analyzing automotive sales and service operations. By leveraging **Microsoft Excel** for pivot-based reporting and **IBM Cognos Analytics** for dashboard creation, the project transforms raw dealership data into meaningful visual insights that support strategic decision-making and operational efficiency.
+This project demonstrates the practical application of **Business Intelligence (BI)** tools for analyzing automotive sales and service operations. By leveraging **Microsoft Excel** for pivot-based reporting and **IBM Cognos Analytics** for interactive dashboard creation, raw dealership data is transformed into meaningful visual insights that support strategic planning, operational efficiency, and data-driven decision-making.
 
-The combination of KPI tracking, interactive charts, and service analytics showcases the use of modern BI techniques to improve business performance and enhance managerial reporting.
